@@ -3,8 +3,8 @@ body {
     margin-top: 5%;
     margin-right: 5%;
     font-size: 1.25em; /* 20px/16 = 1.25 */
-    font-family: 'DM Sans', sans-serif; /*DM Sans won't work without this line*/
-    color: #5452F6;
+    font-family: 'DM Sans', sans-serif;
+    color: #512713;
 }
 
 a {
@@ -15,7 +15,6 @@ ul>ul {
     list-style-type: none;
 }
 
-/*Link states are working! Is a:link possible with a.nav-link?*/
 a.nav-link {
     color: #5452F6;
 }
@@ -27,5 +26,3 @@ a:hover {
 a:active {
 
 }
-
-/*Link states for navigation link: I want to have a:hover underline or colour*/
