@@ -3,8 +3,9 @@ body {
     margin-top: 5%;
     margin-right: 5%;
     font-size: 1.25em; /* 20px/16 = 1.25 */
-    font-family: 'DM Sans', sans-serif;
-    color: #512713;
+    font-family: 'DM Sans', sans-serif; /*DM Sans won't work without this line*/
+    color: #F1F0EA; /*Alabaster*/
+    background-color: black; 
 }
 
 a {
@@ -16,13 +17,13 @@ ul>ul {
 }
 
 a.nav-link {
-    color: #5452F6;
+    color: #F1F0EA;
 }
 
-a:hover {
-    text-decoration-line: underline;
+a.nav-link:hover {
+    color: #FF5A43; /*Crayola orange-red*/
 }
 
-a:active {
 
-}
+
+/*Link states for navigation link: I want to have a:hover underline or colour*/
